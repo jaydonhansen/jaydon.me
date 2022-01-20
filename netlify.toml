@@ -1,0 +1,9 @@
+[[headers]]
+for = "/*"
+[headers.values]
+Strict-Transport-Security = "max-age=31536000; includeSubDomains"
+X-Content-Security-Policy = "default-src 'self'"
+X-Content-Type-Options = "nosniff"
+X-Download-Options = "noopen"
+X-Frame-Options = "DENY"
+X-Permitted-Cross-Domain-Policies = "none"
