@@ -7,7 +7,7 @@ function App() {
     <div className="text-center	">
       <div className="grid place-items-center h-screen bg-main-background">
         <div className="grid place-items-center max-w-xl">
-          <img src={numel} className="Numel" alt="hello there" />
+          <img src={numel} className= "p-8" alt="hello there" />
           <Spotify
             wide
             link="https://open.spotify.com/track/2qUWAMtLCCfcnIaqANz1lR?si=d4e6fb362c2e4fa1"
