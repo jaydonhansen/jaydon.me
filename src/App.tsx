@@ -1,5 +1,5 @@
 import React from "react";
-import { MoonIcon } from "@heroicons/react/outline";
+import { MoonIcon } from "@heroicons/react/solid";
 import { useTheme } from "./hooks/useDarkMode";
 
 function App() {
