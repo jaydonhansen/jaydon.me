@@ -1,5 +1,6 @@
 import React from "react";
-import Spotify from "react-spotify-embed";
+import ReactPlayer from "react-player/youtube";
+
 
 function App() {
   const numel = "/img/numel.gif";
@@ -7,11 +8,8 @@ function App() {
     <div className="text-center	">
       <div className="grid place-items-center h-screen bg-main-background">
         <div className="grid place-items-center max-w-xl">
-          <img src={numel} className= "p-8" alt="hello there" />
-          <Spotify
-            wide
-            link="https://open.spotify.com/track/2qUWAMtLCCfcnIaqANz1lR?si=d4e6fb362c2e4fa1"
-          />
+          <img src={numel} className= "p-32" alt="hello there" />
+          <ReactPlayer url="https://www.youtube.com/watch?v=T0ee9RaUJqE" volume={0.2} controls={true}/>
         </div>
       </div>
     </div>
