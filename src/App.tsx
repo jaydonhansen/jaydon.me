@@ -7,7 +7,7 @@ function App() {
   const numel = "/img/numel.gif";
   return (
     <div className="App">
-      <div className="flex h-screen bg-slate-200 dark:bg-slate-900">
+      <div className="flex absolute inset-0 bg-slate-200 dark:bg-slate-900">
         <div className="fixed top-2 right-2">
           <button
             onClick={() => changeTheme()}
