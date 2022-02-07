@@ -63,7 +63,6 @@ function App() {
             </svg>
           </a>
         </div>
-
         <div className="grid m-auto screen">
           <div className="grid place-concent-center max-w-xl">
             <img src={numel} className="p-32" alt="hello there" />
