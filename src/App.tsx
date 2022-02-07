@@ -39,7 +39,7 @@ function App() {
             className="bg-none p-2 font-semibold 
           text-slate-900 dark:text-slate-200 
           inline-flex items-center rounded"
-            href="https://www.linkedin.com/in/jaydonhansen/"
+            href="https://www.github.com/jaydonhansen/"
             rel="noreferrer"
             target="_blank"
           >
