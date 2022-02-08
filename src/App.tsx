@@ -7,19 +7,10 @@ function App() {
   const numel = "/img/numel.gif";
   return (
     <div className={`${theme === "dark" ? "dark" : ""}`}>
-      <div className="flex h-screen p-8 justify-center items-center bg-slate-200 dark:bg-slate-900 transition duration-250">
-        <div className="fixed top-2 right-2">
-          <button
-            onClick={() => changeTheme()}
-            type="button"
-            className=" full p-2"
-          >
-            <MoonIcon className="h-5 w-5 text-slate-900 dark:text-slate-200" />
-          </button>
-        </div>
-        <div className="fixed top-2 left-2">
+      <div className="flex-col h-screen p-4 items-center bg-slate-200 dark:bg-slate-900 transition duration-250">
+        <div className="flex h-4 space-x-2">
           <a
-            className="p-2 font-semibold text-white inline-flex items-center space-x-2 full"
+            className="font-semibold text-white inline-flex items-center space-x-2 rounded-full"
             href="https://www.linkedin.com/in/jaydonhansen/"
             rel="noreferrer"
             target="_blank"
@@ -38,7 +29,7 @@ function App() {
           <a
             className="bg-none p-2 font-semibold 
           text-slate-900 dark:text-slate-200
-          inline-flex items-center rounded"
+          inline-flex items-center rounded-full"
             href="https://www.github.com/jaydonhansen/"
             rel="noreferrer"
             target="_blank"
@@ -62,27 +53,36 @@ function App() {
               </g>
             </svg>
           </a>
+          <button
+            onClick={() => changeTheme()}
+            type="button"
+            className="inline-flex items-center rounded-full"
+          >
+            <MoonIcon className="h-5 w-5 text-slate-900 dark:text-slate-200" />
+          </button>
         </div>
-        <div
-          className="flex-col align-content-center max-w-xl border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
+        <div className={"flex h-[calc(100%-16px)] justify-center items-center"}>
+          <div
+            className="flex-col align-content-center max-h-fit max-w-lg border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
           bg-slate-300 hover:bg-yellow-100 
           dark:bg-slate-800 border-slate-400 dark:border-slate-200 dark:hover:bg-slate-600"
-        >
-          <p
-            className="subpixel-antialiased font-mono text-center text-3xl p-2
+          >
+            <p
+              className="subpixel-antialiased font-mono text-center text-3xl p-2
             text-slate-700 dark:text-slate-300"
-          >
-            #322 Numel
-          </p>
-          <img src={numel} className="mx-auto p-8" alt="hello there" />
-          <p
-            className="subpixel-antialiased text-justify text-lg text-slate-700 dark:text-slate-200
+            >
+              #322 Numel
+            </p>
+            <img src={numel} className="mx-auto p-8" alt="hello there" />
+            <p
+              className="subpixel-antialiased text-justify text-lg text-slate-700 dark:text-slate-200
             bg-slate-200 p-4 rounded-xl border-2 border-slate-400 dark:border-slate-200 dark:bg-slate-700"
-          >
-            Numel is extremely dull witted—it doesn’t notice being hit. However,
-            it can’t stand hunger for even a second. This Pokémon’s body is a
-            seething cauldron of boiling magma.
-          </p>
+            >
+              Numel is extremely dull witted—it doesn’t notice being hit.
+              However, it can’t stand hunger for even a second. This Pokémon’s
+              body is a seething cauldron of boiling magma.
+            </p>
+          </div>
         </div>
       </div>
     </div>
