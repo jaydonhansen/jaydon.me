@@ -63,28 +63,26 @@ function App() {
             </svg>
           </a>
         </div>
-        <div className=" m-auto place-content-center justify-center items-center p-8">
-          <div
-            className="grid place-concent-center max-w-2xl h-fit border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
+        <div
+          className="flex-col align-content-center max-w-xl border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
           bg-slate-300 hover:bg-yellow-100 
           dark:bg-slate-800 border-slate-400 dark:border-slate-200 dark:hover:bg-slate-600"
-          >
-            <p
-              className="subpixel-antialiased font-mono text-center text-3xl p-2
+        >
+          <p
+            className="subpixel-antialiased font-mono text-center text-3xl p-2
             text-slate-700 dark:text-slate-300"
-            >
-              #322 Numel
-            </p>
-            <img src={numel} className="p-32" alt="hello there" />
-            <p
-              className="subpixel-antialiased text-justify text-lg text-slate-700 dark:text-slate-200
+          >
+            #322 Numel
+          </p>
+          <img src={numel} className="mx-auto p-8" alt="hello there" />
+          <p
+            className="subpixel-antialiased text-justify text-lg text-slate-700 dark:text-slate-200
             bg-slate-200 p-4 rounded-xl border-2 border-slate-400 dark:border-slate-200 dark:bg-slate-700"
-            >
-              Numel is extremely dull witted—it doesn’t notice being hit.
-              However, it can’t stand hunger for even a second. This Pokémon’s
-              body is a seething cauldron of boiling magma.
-            </p>
-          </div>
+          >
+            Numel is extremely dull witted—it doesn’t notice being hit. However,
+            it can’t stand hunger for even a second. This Pokémon’s body is a
+            seething cauldron of boiling magma.
+          </p>
         </div>
       </div>
     </div>
