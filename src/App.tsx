@@ -6,8 +6,8 @@ function App() {
   const { theme, changeTheme } = useTheme();
   const numel = "/img/numel.gif";
   return (
-    <div className={`App ${theme === "dark" ? "dark" : ""}`}>
-      <div className="flex h-screen w-screen justify-center items-center bg-slate-200 dark:bg-slate-900 transition duration-250">
+    <div className={`${theme === "dark" ? "dark" : ""}`}>
+      <div className="flex h-screen justify-center items-center bg-slate-200 dark:bg-slate-900 transition duration-250">
         <div className="fixed top-2 right-2">
           <button
             onClick={() => changeTheme()}
