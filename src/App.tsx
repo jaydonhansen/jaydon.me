@@ -63,9 +63,9 @@ function App() {
             </svg>
           </a>
         </div>
-        <div className=" m-auto place-content-center justify-center items-center p-16">
+        <div className=" m-auto place-content-center justify-center items-center p-8">
           <div
-            className="grid place-concent-center max-w-xl h-fit border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
+            className="grid place-concent-center max-w-2xl h-fit border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
           bg-slate-300 hover:bg-yellow-100 
           dark:bg-slate-800 border-slate-400 dark:border-slate-200 dark:hover:bg-slate-600"
           >
