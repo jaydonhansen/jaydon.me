@@ -7,7 +7,7 @@ function App() {
   const numel = "/img/numel.gif";
   return (
     <div className={`App ${theme === "dark" ? "dark" : ""}`}>
-      <div className="flex h-screen justify-center items-center bg-slate-200 dark:bg-slate-900 transition duration-250">
+      <div className="flex h-screen w-screen justify-center items-center bg-slate-200 dark:bg-slate-900 transition duration-250">
         <div className="fixed top-2 right-2">
           <button
             onClick={() => changeTheme()}
@@ -63,7 +63,7 @@ function App() {
             </svg>
           </a>
         </div>
-        <div className=" m-auto place-content-center justify-center items-center shrink p-16">
+        <div className=" m-auto place-content-center justify-center items-center p-16">
           <div
             className="grid place-concent-center max-w-xl h-fit border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
           bg-slate-300 hover:bg-yellow-100 
