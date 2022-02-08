@@ -78,7 +78,7 @@ function App() {
             <img src={numel} className="p-32" alt="hello there" />
             <p
               className="subpixel-antialiased text-justify text-lg text-slate-700 dark:text-slate-200
-            bg-slate-200 p-4 rounded-xl border-2 border-slate-400 dark:bg-slate-700"
+            bg-slate-200 p-4 rounded-xl border-2 border-slate-400 dark:border-slate-200 dark:bg-slate-700"
             >
               Numel is extremely dull witted—it doesn’t notice being hit.
               However, it can’t stand hunger for even a second. This Pokémon’s
