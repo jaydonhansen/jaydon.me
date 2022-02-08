@@ -63,9 +63,9 @@ function App() {
             </svg>
           </a>
         </div>
-        <div className="grid m-auto screen">
+        <div className="flex m-auto screen place-content-center shrink p-16">
           <div
-            className="grid place-concent-center max-w-xl border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
+            className="grid place-concent-center place-items-center max-w-xl h-fit border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
           bg-slate-300 hover:bg-yellow-100 
           dark:bg-slate-800 border-slate-400 dark:border-slate-200 dark:hover:bg-slate-600"
           >
