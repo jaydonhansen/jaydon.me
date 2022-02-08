@@ -63,7 +63,7 @@ function App() {
         </div>
         <div className={"flex h-[calc(100%-16px)] justify-center items-center"}>
           <div
-            className="flex-col align-content-center max-h-fit max-w-lg border-2 hover:shadow-2xl p-4 rounded-xl transition duration-250
+            className="flex-col align-content-center max-h-fit max-w-lg border-2 hover:shadow-2xl p-8 rounded-xl transition duration-250
           bg-slate-300 hover:bg-yellow-100 
           dark:bg-slate-800 border-slate-400 dark:border-slate-200 dark:hover:bg-slate-600"
           >
