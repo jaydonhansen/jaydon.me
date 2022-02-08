@@ -9,7 +9,7 @@ function App() {
     <div className={`${theme === "dark" ? "dark" : ""}`}>
       <div className="flex-col h-screen p-4 items-center bg-slate-200 dark:bg-slate-900 transition duration-250">
         <div className="flex">
-          <div className="flex-grow ml-2 h-2 space-x-2">
+          <div className="flex-grow ml-2 h-8 space-x-2 align-middle">
             <a
               className="font-semibold text-white inline-flex items-center space-x-2 rounded-full"
               href="https://www.linkedin.com/in/jaydonhansen/"
@@ -55,7 +55,7 @@ function App() {
               </svg>
             </a>
           </div>
-          <div className="mr-2 text-center">
+          <div className="mr-2 w-32 m-auto  align-middle text-right">
             <button
               onClick={() => changeTheme()}
               type="button"
