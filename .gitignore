@@ -14,7 +14,6 @@
 .bsb.lock
 .merlin
 *.bs.js
-*.gen.tsx
 
 # misc
 .DS_Store
