@@ -1,6 +1,7 @@
-# Getting Started with Create React App
+# Jaydon.me
 
 - ReScript
 - TypeScript
 - CRA
 - Tailwind
+- Numel
