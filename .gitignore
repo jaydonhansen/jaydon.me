@@ -2,15 +2,19 @@
 
 # dependencies
 /node_modules
-/.pnp
-.pnp.js
-.swc
 
 # testing
 /coverage
 
 # production
 /build
+
+# rescript
+/lib/
+.bsb.lock
+.merlin
+*.bs.js
+*.gen.tsx
 
 # misc
 .DS_Store
