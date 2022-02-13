@@ -13,7 +13,6 @@
     "@types/react": "^17.0.38",
     "@types/react-dom": "^17.0.11",
     "eslint-plugin-tailwindcss": "^3.4.3",
-    "gentype": "^4.3.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
     "react-player": "^2.9.0",

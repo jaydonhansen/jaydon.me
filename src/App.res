@@ -1,4 +1,5 @@
-@genType @react.component
+@module("@heroicons/react/solid") external moonIcon: string => string = "MoonIcon"
+@react.component
 let make = () => {
   let darkMode = DarkMode.use(. Some(false), None)
 

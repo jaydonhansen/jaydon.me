@@ -16,16 +16,6 @@
   "bs-dependencies": [
     "@rescript/react"
   ],
-  "gentypeconfig": {
-    "language": "typescript",
-    "shims": {},
-    "generatedFileExtension": ".gen.tsx",
-    "module": "es6",
-    "debug": {
-      "all": false,
-      "basic": false
-    }
-},
   "reason":{
     "react-jsx": 3}
 }
